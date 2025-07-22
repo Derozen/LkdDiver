@@ -19,6 +19,6 @@
 
 ## 📁 Structure du projet
 ## data.py
-Installez une version de chrome divercomppatible avec votre navigateur chrome. allez dans le fichier .env et remplacez les champs MY_EMAIL et MY_PASSWORD par vos identifiants linkedin. Installez les dependances
+Installez une version de chrome divercomppatible avec votre navigateur chrome. allez dans le fichier .env et remplacez les champs MY_EMAIL et MY_PASSWORD par vos identifiants linkedin. Installez les dependances  
 `pip install requirements.txt`
 
