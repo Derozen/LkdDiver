@@ -31,7 +31,7 @@ Si vous voulez stocker les données dans une base de données MYSQL
 
 <details> <summary><strong>📦 Structure SQL de la table <code>alumni</code></strong></summary>
 </details>
-```sql
+```
 CREATE TABLE IF NOT EXISTS alumni (
     id INT AUTO_INCREMENT PRIMARY KEY,
     lkdid VARCHAR(60) UNIQUE NOT NULL,
