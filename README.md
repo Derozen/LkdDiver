@@ -23,5 +23,5 @@ LkdDiver/
 ├── process.py
 ├── requirements.txt
 ├── README.md
-└── scrap.py
-└── script.js
+├──  scrap.py
+├── script.js
