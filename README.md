@@ -30,7 +30,7 @@ Après avoir mis votre clé secrète ghost genius api dans le fichier **.env**, 
 Si vous voulez stocker les données dans une base de données MYSQL  
 
 <details> <summary><strong>📦 Structure SQL de la table <code>alumni</code></strong></summary>
-CREATE TABLE IF NOT EXISTS alumni (
+```CREATE TABLE IF NOT EXISTS alumni (
     id INT AUTO_INCREMENT,
     lkdid VARCHAR(60) UNIQUE NOT NULL,
     nom VARCHAR(100) NOT NULL,
@@ -42,5 +42,5 @@ CREATE TABLE IF NOT EXISTS alumni (
     location VARCHAR(250),
     url TEXT NOT NULL,
     PRIMARY KEY (id)
-);
+);```
 </details>
