@@ -29,10 +29,10 @@ Après avoir mis votre clé secrète ghost genius api dans le fichier **.env**, 
 ## data.py
 Si vous voulez stocker les données dans une base de données MYSQL  
 
-Structure de lq table alumni :  
+<details> <summary><strong>📦 Structure SQL de la table <code>alumni</code></strong></summary>
 CREATE TABLE IF NOT EXISTS alumni (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    lkdid VARCHAR(60) PRIMARY KEY,
+    id INT AUTO_INCREMENT,
+    lkdid VARCHAR(60) UNIQUE NOT NULL,
     nom VARCHAR(100) NOT NULL,
     prénoms VARCHAR(100) NOT NULL,
     datediplome DATE,
@@ -40,9 +40,7 @@ CREATE TABLE IF NOT EXISTS alumni (
     bio TEXT,
     skills TEXT NOT NULL,
     location VARCHAR(250),
-    url TEXT NOT NULL
-
-
-)
-
-
+    url TEXT NOT NULL,
+    PRIMARY KEY (id)
+);
+</details>
